@@ -1,10 +1,14 @@
 import './App.css'
+import Header from './components/Header/Header'
+import Navbar from './components/Navbar/Navbar'
+import Search from './components/Search/Search'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-2xl'>Vite + React</h1>
+    <Header></Header>
+    <Search></Search>
     </>
   )
 }
